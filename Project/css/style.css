@@ -1,0 +1,184 @@
+body {
+    margin: 0 auto;
+    font: 100%/1.5 'Helvetica', 'Arial', sans-serif;
+    color: white;
+    letter-spacing: 0.05em;
+    line-height: 1.40em;
+    background-color: #2F3440;
+
+}
+
+.wrapper {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Header*/
+
+header{
+    background-image: url("../img/header-bckg.jpg");
+    background-repeat:no-repeat;
+    height: 700px;
+}
+header img{
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 35px;
+    float: left;
+}
+nav, ul{
+    height: 90px;
+    float: right;
+    width: 500px;
+}
+
+header ul{
+    list-style: none;
+    padding: 0;
+    overflow: auto;
+    width: 500px;
+    margin: 6px auto;
+}
+
+header ul li{
+    display: block;
+    float: left;
+    font-size: 20px;
+    padding-top: 15px;
+    width: 105px;
+    height: 35px;
+    margin: 20px auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border: 5px solid rgba(48,48,48,.5);
+}
+
+header ul li:first-child{
+    /*margin-left: 150px;*/
+}
+
+header a:link, header a:visited{
+    text-decoration: none;
+    color: #FCF8E3;
+}
+
+header a:hover{
+    color: #EF5847;
+}
+
+header a{
+    background-color: rgba(48,48,48,.5);
+    padding: 5px;
+}
+
+header h1, header h2{
+    display: block;
+    position: relative;
+    top: 400px;
+    background-color: rgba(48,48,48,.5);
+    height: 55px;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+
+
+/*Roster Section*/
+
+#roster{
+    width: 100%;
+    height: 650px;
+    overflow: auto;
+    background-color: #2F3440;
+    margin-top: 20px;
+}
+
+#slider{
+    width: 810px;
+    float: left;
+}
+
+#music{
+    width: 300px;
+    height: 550px;
+    float: left;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: rgba(48,48,48,.5);
+    text-align: center;
+}
+
+#info{
+    background-color: #2F3440;
+    width: 100%;
+    height: 500px;
+}
+
+#chart{
+    width: 62%;
+    margin: 0 auto;
+    background-color: rgba(48,48,48,.5);
+
+}
+
+button{
+    text-align:center;
+    padding:11px 32px;
+    border:solid 1px #004F72;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
+    font:18px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#E5FFFF;
+    background-color:#3BA4C7;
+    background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+    background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+    background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+    background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);
+    background-image: linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Contact Section*/
+
+#contact{
+    width: 100%;
+    height: 400px;
+    background-color: #2F3440;
+    background-image: url("../img/directions");
+    background-repeat:no-repeat;
+    margin-top: 20px;
+}
+
+#contact canvas{
+    background-image: url("../img/directions");
+
+}
+
+#contact-wrapper{
+    float: right;
+    margin-right: 30px;
+}
+
+#contact-wrapper a:link{
+    text-decoration: none;
+    color: white;
+
+}
+
+#contact-wrapper a:hover{
+    color: red;
+}
+
+
+
+
