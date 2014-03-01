@@ -1,0 +1,45 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    font: 100%/1.5 'Helvetica', 'Arial', sans-serif;
+    letter-spacing: 0.05em;
+    line-height: 1.40em;
+    background-color: #2C3E50;
+    background-image: url("../images/stardust.png");
+    background-repeat: repeat;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: #F6FFFF;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Header Section*/
+
+#logo{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*Graph 1*/
+
+#graphic1{
+    width: 100%;
+    height: 450px;
+    overflow: auto;
+}
+
+#graph1-wrapper{
+    width: 700px;
+    float: left;
+    height: 400px;
+}
+
+#show-more1, #show-more2{
+    padding: 25px;
+}
