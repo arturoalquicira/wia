@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.icons #vimeo{
+    background-image: url("../images/socialicons.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    background-position: 0 0;
+    height: 32px;
+    width: 32px;
+
+}
+
+.icons #vimeo:hover{
+    background-position: 0 -32px;
+}
+
+.icons #twitter{
+    background-image: url("../images/socialicons.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    background-position: -32px 0;
+    height: 32px;
+    width: 32px;
+}
+
+.icons #twitter:hover{
+    background-position: -32px -32px;
+}
